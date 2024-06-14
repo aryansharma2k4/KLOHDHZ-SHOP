@@ -37,11 +37,11 @@ function Shop() {
     <>
     <div className='mt-12'>
         <div className='flex justify-center mb-12'>
-            <button onClick={() => itemDisplay(1)} className='bg-black text-white mr-3 px-4 py-2 rounded-xl font-mono font-bold'>All</button>
-            <button onClick={() => itemDisplay(2)} className='bg-black text-white mr-3 px-4 py-2 rounded-xl font-mono font-bold'>Men</button>
-            <button onClick={() => itemDisplay(3)} className='bg-black text-white mr-3 px-4 py-2 rounded-xl font-mono font-bold'>Jewellery</button>
-            <button onClick={() => itemDisplay(4)} className='bg-black text-white mr-3 px-4 py-2 rounded-xl font-mono font-bold'>Electronics</button>
-            <button onClick={() => itemDisplay(5)} className='bg-black text-white mr-3 px-4 py-2 rounded-xl font-mono font-bold'>Women</button>
+            <button onClick={() => itemDisplay(1)} className='bg-black hover:bg-white hover:text-black border-2 border-black shadow-lg text-white mr-3 px-4 py-2 rounded-xl font-mono font-bold'>All</button>
+            <button onClick={() => itemDisplay(2)} className='bg-black hover:bg-white hover:text-black border-2 border-black shadow-lg text-white mr-3 px-4 py-2 rounded-xl font-mono font-bold'>Men</button>
+            <button onClick={() => itemDisplay(3)} className='bg-black hover:bg-white hover:text-black border-2 border-black shadow-lg text-white mr-3 px-4 py-2 rounded-xl font-mono font-bold'>Jewellery</button>
+            <button onClick={() => itemDisplay(4)} className='bg-black hover:bg-white hover:text-black border-2 border-black shadow-lg text-white mr-3 px-4 py-2 rounded-xl font-mono font-bold'>Electronics</button>
+            <button onClick={() => itemDisplay(5)} className='bg-black hover:bg-white hover:text-black border-2 border-black shadow-lg text-white mr-3 px-4 py-2 rounded-xl font-mono font-bold'>Women</button>
         </div>
         <div>
         <div className='grid mb-12 grid-cols-4 gap-4'>

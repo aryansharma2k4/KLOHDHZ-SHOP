@@ -16,7 +16,6 @@ function useItemInfo() {
         fakeStore()
     }, [])
 
-    data.map((item) => console.log(item.rating.count))
   return data;
 }
 

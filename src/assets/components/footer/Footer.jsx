@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className='footer fixed w-screen bottom-0'>
+    <footer className='footer'>
       <div className='w-full mx-auto py-12 text-center bg-black text-white'>
         <div className='font-mono font-semibold'>
           Copyright © KLOHDHZ SHOP 🤍 2024. All rights reserved.

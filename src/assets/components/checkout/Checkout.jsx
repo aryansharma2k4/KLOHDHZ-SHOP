@@ -43,7 +43,7 @@ function Checkout() {
   return (
     <>
 
-    <div className='flex'>
+    <div className='flex min-h-screen'>
         <div>
             <div className='mt-32 min-w-[604px] ml-12 mb-2 font-bold font-mono text-2xl'>ITEM SUMMARY</div>
             {cartItems.map((item) => 
