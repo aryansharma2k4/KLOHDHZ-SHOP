@@ -6,6 +6,7 @@ import { addItemCart, addItemToCart } from '../../features/cartSlice'
 import { Input } from 'postcss'
 import { Provider } from 'react-redux'
 import { useSelector } from 'react-redux'
+import useItemInfo from '../hooks/useItemInfo'
 
 function ItemView() {
 

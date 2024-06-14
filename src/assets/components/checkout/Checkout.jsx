@@ -45,7 +45,7 @@ function Checkout() {
 
     <div className='flex'>
         <div>
-            <div className='mt-32 ml-12 border-b-2 mb-2 font-bold font-mono text-2xl'>ITEM SUMMARY</div>
+            <div className='mt-32 min-w-[604px] ml-12 mb-2 font-bold font-mono text-2xl'>ITEM SUMMARY</div>
             {cartItems.map((item) => 
             
             ( 
@@ -78,7 +78,7 @@ function Checkout() {
             ))}
         </div>
         <div className='mt-32 flex-grow font-bold font-mono text-2xl text-center'>
-            <div className='border-b-2'>Order Summary</div>
+            <div className=''>Order Summary</div>
             <div className='mt-12'>Total : ${cost} </div>
             <div>
                 <button className='mt-12 border-2 px-4 py-2 rounded-xl shadow-lg hover:bg-black hover:text-white'>ORDER</button>

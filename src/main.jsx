@@ -9,6 +9,7 @@ import Checkout from './assets/components/checkout/Checkout.jsx'
 import ItemView from './assets/components/itemView/ItemView.jsx'
 import { Provider } from 'react-redux'
 import { store } from './app/store.js'
+import Shop from './assets/components/shop/Shop.jsx'
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path:"item",
         element: <ItemView />
+      },
+      {
+        path: "shop",
+        element: <Shop />
       }
     ]
   }
