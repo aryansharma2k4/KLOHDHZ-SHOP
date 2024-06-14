@@ -43,16 +43,16 @@ function Checkout() {
   return (
     <>
 
-    <div className='flex min-h-screen'>
+    <div className='lg:flex min-h-screen'>
         <div>
-            <div className='mt-32 min-w-[604px] ml-12 mb-2 font-bold font-mono text-2xl'>ITEM SUMMARY</div>
+            <div className='mt-32 lg:min-w-[604px] ml-12 mb-2 font-bold font-mono text-2xl'>ITEM SUMMARY</div>
             {cartItems.map((item) => 
             
             ( 
-                <div key={item} className='flex ml-12 mt-12 border-2 px-3 py-3 shadow-md'>
+                <div key={item} className='flex lg:ml-12 ml-4 mt-12 px-3 py-3'>
                 <div className='text-2xl font-bold font-mono'></div>
                 <img className='h-32 w-32' src={item.image}/>
-                <div className='font-semibold text-xl font-mono pl-8 w-[800px]'>{item.title}</div>
+                <div className='font-semibold text-xl font-mono pl-8 lg:w-[800px]'>{item.title}</div>
                 <div className='font-semibold text-xl font-mono pl-8 '>{item.category}</div>
                 <div className='ml-12 text-center'>
                     <div className='flex'>
@@ -77,7 +77,7 @@ function Checkout() {
             </div>
             ))}
         </div>
-        <div className='mt-32 flex-grow font-bold font-mono text-2xl text-center'>
+        <div className='mt-32 flex-grow font-bold lg:mr-12 font-mono text-2xl text-center'>
             <div className=''>Order Summary</div>
             <div className='mt-12'>Total : ${cost} </div>
             <div>
