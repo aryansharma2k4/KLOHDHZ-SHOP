@@ -1,11 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-// Helper function to save cart items to local storage
 const saveCartToLocalStorage = (cartItems) => {
     localStorage.setItem('cartItems', JSON.stringify(cartItems));
 };
 
-// Initial state loaded from local storage or defaulting to an empty array
 const initialState = {
     cartItems: JSON.parse(localStorage.getItem('cartItems')) || []
 };

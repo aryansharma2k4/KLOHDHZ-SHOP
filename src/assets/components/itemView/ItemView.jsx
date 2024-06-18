@@ -26,7 +26,7 @@ function ItemView() {
     <>
     <div>
         <div className='lg:flex mt-32 lg:ml-24 ml-4'>
-            <img className='h-80 w-80 mt-28' src={values.image} alt="" />
+            <img className='h-80 w-80 mx-auto mt-28' src={values.image} alt="" />
             <div className='flex-grow text-center'>
                 <div>
                     <h1 className='text-2xl font-bold font-mono mt-16'>{values.title}</h1>
